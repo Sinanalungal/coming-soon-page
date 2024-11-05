@@ -13,7 +13,7 @@ const ComingSoon = () => {
       <div className="flex-1 flex flex-col items-center justify-center text-center py-16 md:py-24">
         <div className="mb-12 ">
           <Image
-            src="/TechCubeLogo.PNG"
+            src="/TechCubeLogo.png"
             alt="Tech Cube Logo"
             width={155}
             height={100}
