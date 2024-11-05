@@ -1,12 +1,11 @@
 "use client";
 
-import React, { useState } from "react";
+import React from "react";
 import ComingSoonPage from "@/components/Comingsoon"
 import Particles from "@/components/ui/particles";
 
 
 const Home: React.FC = () => {
-  const [color, setColor] = useState("#ffffff");
   return (
      <>
      <div className="relative overflow-x-hidden">
@@ -15,7 +14,7 @@ const Home: React.FC = () => {
         className="absolute inset-0"
         quantity={60}
         ease={80}
-        color={color}
+        color={'#ffffff'}
         refresh
       />
      </div>
