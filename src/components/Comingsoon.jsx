@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { MapPin, Menu, X } from "lucide-react";
 import TypingAnimation from "./ui/typing-animation";
 import WordRotate from "./ui/word-rotate";
-import Image from "next/image";
 
 const ComingSoon = () => {
   const [isDrawerOpen, setIsDrawerOpen] = useState(false);
@@ -12,11 +11,11 @@ const ComingSoon = () => {
       {/* Main Content */}
       <div className="flex-1 flex flex-col items-center justify-center text-center py-16 md:py-24">
         <div className="mb-12 ">
-          <Image
+          <img
             src="/TechCubeLogo.png"
             alt="Tech Cube Logo"
-            width={155}
-            height={100}
+            // width={155}
+            // height={100}
             className="h-28 md:h-28 lg:h-36 mx-auto"
           />
           <TypingAnimation
